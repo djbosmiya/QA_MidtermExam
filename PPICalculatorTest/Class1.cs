@@ -31,6 +31,25 @@ namespace PPICalculatorTest
                 //Assert 
                 Assert.AreEqual(expected, actual);
             }
+
+            [Test]
+            public void CalculatePPI_Input1880and1080and13point0_Output166point78and0point1523and2168()
+            {
+                //Arrange 
+                double width = 1880;
+                double height = 1080;
+                double diagonalSize = 13.0;
+
+                string expected = "\n\nPPI: " + 166.78 + " \nDot Pitch: " + 0.1523 + " \nDiagonal Size in Pixels: " + 2168;
+
+                //Act
+                Dictionary<string, double> ppiDictionary = new Dictionary<string, double>();
+                ppiDictionary = PixelCalc.Calculate(width, height, diagonalSize);
+                string actual = "\n\nPPI: " + ppiDictionary["PPI"] + " \nDot Pitch: " + ppiDictionary["dotPitch"] + " \nDiagonal Size in Pixels: " + ppiDictionary["diagonalinPixels"];
+
+                //Assert 
+                Assert.AreEqual(expected, actual);
+            }
         }
     }
 }
