@@ -1,0 +1,8 @@
+C:\Users\admin\Desktop\Spring2023\Quality Assuarance\Midterm_Prework\PPICalculator\obj\Debug\PPICalculator.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Spring2023\Quality Assuarance\Midterm_Prework\PPICalculator\obj\Debug\PPICalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\Spring2023\Quality Assuarance\Midterm_Prework\PPICalculator\obj\Debug\PPICalculator.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Spring2023\Quality Assuarance\Midterm_Prework\PPICalculator\bin\Debug\PPICalculator.exe.config
+C:\Users\admin\Desktop\Spring2023\Quality Assuarance\Midterm_Prework\PPICalculator\bin\Debug\PPICalculator.exe
+C:\Users\admin\Desktop\Spring2023\Quality Assuarance\Midterm_Prework\PPICalculator\bin\Debug\PPICalculator.pdb
+C:\Users\admin\Desktop\Spring2023\Quality Assuarance\Midterm_Prework\PPICalculator\obj\Debug\PPICalculator.exe
+C:\Users\admin\Desktop\Spring2023\Quality Assuarance\Midterm_Prework\PPICalculator\obj\Debug\PPICalculator.pdb
