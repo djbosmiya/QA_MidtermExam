@@ -10,5 +10,27 @@ namespace PPICalculatorTest
 {
     public class PPICalculatorTest
     {
+        [TestFixture]
+        public class PPICalulatorTestCase1
+        {
+            [Test]
+            public void CalculatePPI_Input1920and720and15point4_Output133point15and0point1908and2051()
+            {
+                //Arrange 
+                double width = 1920;
+                double height = 720;
+                double diagonalSize = 15.4;
+
+                string expected = "\n\nPPI: " + 133.15 + " \nDot Pitch: " + 0.1908 + " \nDiagonal Size in Pixels: " + 2051;
+
+                //Act
+                Dictionary<string, double> ppiDictionary = new Dictionary<string, double>();
+                ppiDictionary = PixelCalc.Calculate(width, height, diagonalSize);
+                string actual = "\n\nPPI: " + ppiDictionary["PPI"] + " \nDot Pitch: " + ppiDictionary["dotPitch"] + " \nDiagonal Size in Pixels: " + ppiDictionary["diagonalinPixels"];
+
+                //Assert 
+                Assert.AreEqual(expected, actual);
+            }
+        }
     }
 }
